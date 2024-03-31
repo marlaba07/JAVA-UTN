@@ -325,15 +325,15 @@ public class CalcularVariables {
         System.out.print("Ingrese una hora: ");
         H = scanner.nextInt();
 
-        if(H <= 23) {
+        if(H <= 23 && H > 0) {
             System.out.print("Ingrese los minutos: ");
             M = scanner.nextInt();
 
-            if(M <= 60){
+            if(M <= 60 && M > 0){
                 System.out.print("Ingrese los segundos: ");
                 S = scanner.nextInt();
 
-                if(S <= 60){
+                if(S <= 60 && M > 0){
                     System.out.print("La hora indicada: "+ H +":"+ M+":"+ S+" es correcta! ");
                 } else {
                     System.out.print("Segundos ingresados inválidos. ");
