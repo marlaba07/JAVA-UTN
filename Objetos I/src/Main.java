@@ -36,16 +36,43 @@ public class Main {
 
                     break;
                 case 2:
+                    Empleado empleado = new Empleado("Carlos", "Gutierrez", 23456345, 25000.0 );
+                    Empleado empleado2 = new Empleado("Ana", "Sánchez", 34234123, 27500.0 );
+
+                    empleado.showEmployee(empleado);
+                    empleado2.showEmployee(empleado2);
+
+                    empleado.increaseSalary(15.0);
+
+                    System.out.println("El empleado aumentó su salario en un 15%" );
+                    empleado.showEmployee(empleado);
 
                     break;
                 case 3:
+                    Item item = new Item(1, "Objeto coleccionable", 30, 1500);
+                    String itemDetails = item.showItem(item);
+                    System.out.println(itemDetails);
 
                     break;
                 case 4:
+                    Banco banco = new Banco(1, "Banco Provincia", 15000.0);
+
+                    System.out.println("Te acreditamos 2.500");
+                    banco.credito(2500.0);
+
+                    System.out.println("Debitaste 1.500");
+                    banco.debito(1500.0);
+
+                    System.out.println("Debitaste 30.000");
+                    banco.debito(30000.0);
+
+                    String bancoDetails = banco.showCuenta(banco);
+                    System.out.println(bancoDetails);
 
                     break;
                 case 5:
-
+                    Hora hora = new Hora(23, 30, 15);
+                    System.out.println(hora);
                     break;
                 case 6:
                     System.out.println("Saliendo del programa...");

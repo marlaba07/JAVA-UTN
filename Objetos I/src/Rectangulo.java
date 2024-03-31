@@ -15,7 +15,7 @@ public class Rectangulo {
 
     Podría llamar a un constructor vacio para inicializarlos. Esta es otra opción válida.
 
-    public void Rectangulo(){} */
+    public Rectangulo(){} */
 
     // Constructor 2 [Obtengo los datos que le paso por parametro en el objeto]
     public Rectangulo(double width, double height){
