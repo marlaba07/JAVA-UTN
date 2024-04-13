@@ -1,15 +1,18 @@
 package Models;
 
-public class Libro extends Autor {
+import java.util.ArrayList;
+
+public class Libro {
     private String tittle;
     private Double price;
     private Integer stock;
+    private ArrayList<String> autor;
 
-    public Libro(String tittle, Double price, Integer stock, String name, String lastname, String email, String gender) {
-        super(name, lastname, email, gender);
+    public Libro(String tittle, Double price, Integer stock, ArrayList<String> autor) {
         this.tittle = tittle;
         this.price = price;
         this.stock = stock;
+        this.autor = autor;
     }
 
     public String getTittle() {
@@ -36,6 +39,23 @@ public class Libro extends Autor {
         this.stock = stock;
     }
 
+    public ArrayList<String> getAutor() { return autor; }
 
+    public void setAutor(ArrayList<String> autor) { this.autor = autor; }
 
+    @Override
+    public String toString() {
+        String autores = "";
+
+        for (String author : autor) {
+            autores += author + ", ";
+        }
+
+        return  "  Libro {" +
+                "  Titulo='" + tittle + '\'' +
+                ", Precio="  + price  +
+                ", Stock="   + stock  +
+                ", Autores=[" + autores + "]" +
+                '}';
+    }
 }

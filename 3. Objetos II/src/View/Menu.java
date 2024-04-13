@@ -1,5 +1,9 @@
 package View;
 
+import Models.Autor;
+import Models.Libro;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Menu {
@@ -14,6 +18,18 @@ public class Menu {
 
             switch (option) {
                 case 1:
+                    ArrayList<String> autores = new ArrayList<>();
+                    autores.add("Joshua");
+
+                    Autor author = new Autor("Joshua", "Bloch", "joshua@email.com", "M");
+                    Libro book = new Libro("Effective Java", 450.0, 150, autores );
+
+                    System.out.println(author);
+                    System.out.println(book);
+
+                    book.setPrice(500.0);
+                    book.setStock(book.getStock() + 50);
+
                     break;
                 case 2:
                     break;
