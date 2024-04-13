@@ -6,9 +6,9 @@ public class Libro {
     private String tittle;
     private Double price;
     private Integer stock;
-    private ArrayList<String> autor;
+    private ArrayList<Autor> autor;
 
-    public Libro(String tittle, Double price, Integer stock, ArrayList<String> autor) {
+    public Libro(String tittle, Double price, Integer stock, ArrayList<Autor> autor) {
         this.tittle = tittle;
         this.price = price;
         this.stock = stock;
@@ -39,23 +39,40 @@ public class Libro {
         this.stock = stock;
     }
 
-    public ArrayList<String> getAutor() { return autor; }
+    public ArrayList<Autor> getAutor() {
+        return autor;
+    }
 
-    public void setAutor(ArrayList<String> autor) { this.autor = autor; }
+    public void setAutor(ArrayList<Autor> autor) {
+        this.autor = autor;
+    }
 
     @Override
     public String toString() {
         String autores = "";
-
-        for (String author : autor) {
+        for (Autor author : autor) {
             autores += author + ", ";
         }
 
         return  "  Libro {" +
-                "  Titulo='" + tittle + '\'' +
-                ", Precio="  + price  +
-                ", Stock="   + stock  +
+                "  Titulo='" + getTittle() + '\'' +
+                ", Precio="  + getPrice()  +
+                ", Stock="   + getStock()  +
                 ", Autores=[" + autores + "]" +
                 '}';
+    }
+
+    public String sendMessagge(){
+        StringBuilder names = new StringBuilder();
+        for(Autor author : autor) {
+            if(author != null){
+                names.append(author.getName());
+                names.append(" ");
+                names.append(author.getLastname());
+                names.append(" ,");
+            }
+        }
+
+        return "El libro, " + this.getTittle() + " de " + names + " se vende a " + this.getPrice() + " pesos.";
     }
 }
