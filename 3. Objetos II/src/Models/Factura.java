@@ -1,27 +1,21 @@
 package Models;
 
+import java.util.ArrayList;
 import java.util.UUID;
 import java.time.LocalDateTime;
 
 public class Factura {
     private UUID id;
-    private Double totalAmount;
     private LocalDateTime date;
     private Cliente client;
+    private ArrayList<Item> items;
 
-    public Factura(UUID id, Double totalAmount, Cliente client) {
-        this.id = id;
-        this.totalAmount = totalAmount;
-        this.date = LocalDateTime.now();;
+
+    public Factura(Cliente client, ArrayList<Item> item) {
+        this.id = UUID.randomUUID();
+        this.date = LocalDateTime.now();
         this.client = client;
-    }
-
-    public Double getTotalAmount() {
-        return totalAmount;
-    }
-
-    public void setTotalAmount(Double totalAmount) {
-        this.totalAmount = totalAmount;
+        this.items = item;
     }
 
     public Cliente getClient() {
@@ -36,18 +30,29 @@ public class Factura {
         return date;
     }
 
+    public ArrayList<Item> getItem() {
+        return items;
+    }
+
     public Double calculateDiscount(){
-        double discount = getTotalAmount() * (client.getPercentage() / 100.0);
-        return getTotalAmount() - discount;
+        double discount = 0.0;
+        for(Item item : items) {
+            if (item != null) {
+                discount += item.getTotal();
+            }
+        }
+
+        return discount - (discount * (client.getPercentage() / 100));
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Factura [ " +
                 "id= " + getId() +
-                ", monto total= " + getTotalAmount() +
                 ", fecha factura= " + getDate() +
+                ", monto total= " + calculateDiscount() +
                 ", cliente= " + getClient() +
+                ", item= " + getItem() +
                 " ]";
     }
 }

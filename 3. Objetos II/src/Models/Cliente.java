@@ -7,8 +7,8 @@ public class Cliente {
     private String email;
     private Integer percentage;
 
-    public Cliente(UUID id, String name, String email, Integer percentage) {
-        this.id = id;
+    public Cliente(String name, String email, Integer percentage) {
+        this.id =  UUID.randomUUID();
         this.name = name;
         this.email = email;
         this.percentage = percentage;
@@ -30,13 +30,9 @@ public class Cliente {
         return percentage;
     }
 
-    public void setPercentage(Integer percentage) {
-        this.percentage = percentage;
-    }
-
     @Override
     public String toString(){
-        return "Cliente [ " +
+        return " [ " +
                 "id= " + getId() +
                 ", nombre= " + getName() +
                 ", email= " + getEmail() +

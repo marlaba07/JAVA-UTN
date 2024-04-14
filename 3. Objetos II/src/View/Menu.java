@@ -1,9 +1,6 @@
 package View;
 
-import Models.Autor;
-import Models.Cliente;
-import Models.Factura;
-import Models.Libro;
+import Models.*;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -40,20 +37,19 @@ public class Menu {
                     book.sendMessagge();
                     break;
                 case 2:
-                    UUID idClient  = UUID.randomUUID();
-                    UUID idInvoice = UUID.randomUUID();
+                    Cliente client = new Cliente("Mariano", "marianolabatut@gmail.com", 10);
+                    Item item = new Item("PC", "Computadora", 200000, 3);
+                    Item item1 = new Item("Auriculares", "Auris inalambricos", 15000, 4);
+                    Item item2 = new Item("Teclado", "Teclado mecancico", 90000, 2);
 
-                    Cliente client = new Cliente(idClient, "Mariano", "marianolabatut@gmail.com", 10);
-                    System.out.println(client);
+                    ArrayList<Item> items = new ArrayList<>();
+                    items.add(item);
+                    items.add(item1);
+                    items.add(item2);
 
-                    Factura invoice = new Factura(idInvoice, 10000.0, client);
+                    Factura invoice = new Factura(client, items);
                     System.out.println(invoice);
 
-                    Double discount = invoice.calculateDiscount();
-                    invoice.setTotalAmount(discount);
-
-                    System.out.println("\n Descuento realizado, generando nueva factura... ");
-                    System.out.println(invoice);
                     break;
                 case 3:
                     break;
