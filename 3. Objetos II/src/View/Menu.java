@@ -2,10 +2,8 @@ package View;
 
 import Models.*;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.UUID;
 
 public class Menu {
     public static void showMenu() {
@@ -49,10 +47,21 @@ public class Menu {
 
                     Factura invoice = new Factura(client, items);
                     System.out.println(invoice);
-
                     break;
                 case 3:
-                    break;
+                    Titular cliente = new Titular("Mariano", 'M');
+                    Cuenta cuenta   = new Cuenta(10000.0, cliente);
+
+                    System.out.println("\nDeposito 150.50, el balance es " + cuenta.deposit(150.50) + "\n");
+                    System.out.println("Retiro 150, el balance es " + cuenta.extract(150.0) + "\n");
+                    System.out.println("Retiro 11000.50, el balance es " + cuenta.extract(11000.50) + "\n");
+                    System.out.println("Deposito 1250.50, el balance es " + cuenta.deposit(1250.50) + "\n");
+
+                    System.out.println("\nOperaciones realizadas:");
+                    for (String ops : cuenta.getOperaciones()) {
+                        if (ops != null) System.out.println(ops);
+                    }
+                     break;
                 case 4:
                     System.out.println("Saliendo del programa...");
                     break;
