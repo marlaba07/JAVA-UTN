@@ -1,9 +1,6 @@
 package View;
 
-import Models.Cilindro;
-import Models.Estudiante;
-import Models.Persona;
-import Models.Staff;
+import Models.*;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -45,7 +42,7 @@ public class Menu {
                     Staff staff2 = new Staff(42231239, "Luka", "Doncic", "lukamagic@gmail.com", "Dallas 1234", 400000.0, "Preceptor");
                     Staff staff3 = new Staff(42231240, "Bam", "Adebayo", "bambam@gmail.com", "Curie 9876", 500000.0, "Profesor");
 
-                    Persona[] school = new Persona[];
+                    Persona[] school = new Persona[6];
                     school[0] = estudiante1;
                     school[1] = estudiante2;
                     school[2] = estudiante3;
@@ -55,6 +52,7 @@ public class Menu {
                     school[5] = staff3;
                     break;
                 case 3:
+                    Figura cuadrado = new Cuadrado("Azul", 20.5);
                     break;
                 case 4:
                     System.out.println("Saliendo del programa... ");
