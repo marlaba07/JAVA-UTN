@@ -10,19 +10,9 @@ public class Utilitarios extends Vehiculo{
         this.altura = altura;
     }
 
-    public Double getKgMax() {
-        return kgMax;
+    @Override
+    public String obtenerDatosEspecificos() {
+        return "KG_MAX: " + kgMax + ", Altura: " + altura;
     }
 
-    public void setKgMax(Double kgMax) {
-        this.kgMax = kgMax;
-    }
-
-    public Double getAltura() {
-        return altura;
-    }
-
-    public void setAltura(Double altura) {
-        this.altura = altura;
-    }
 }

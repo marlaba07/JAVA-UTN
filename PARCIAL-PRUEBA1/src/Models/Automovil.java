@@ -1,18 +1,16 @@
 package Models;
 
 public class Automovil extends Vehiculo{
-    private Double airbagsMax;
+    private Integer airbagsMax;
 
-    public Automovil(String modelo, Double precio, String tipo, Double airbagsMax) {
+    public Automovil(String modelo, Double precio, String tipo, Integer airbagsMax) {
         super(modelo, precio, tipo);
         this.airbagsMax = airbagsMax;
     }
 
-    public Double getAirbagsMax() {
-        return airbagsMax;
+    @Override
+    public String obtenerDatosEspecificos() {
+        return "Número de Airbags: " + airbagsMax;
     }
 
-    public void setAirbagsMax(Double airbagsMax) {
-        this.airbagsMax = airbagsMax;
-    }
 }
