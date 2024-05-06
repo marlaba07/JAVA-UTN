@@ -9,19 +9,19 @@ public class GestorVehiculos {
         this.vehiculos = vehiculos;
     }
 
-    public void actualizarPrecios(double porcentajeAumentoMotos, double porcentajeAumentoUtilitarios,
-                                  double porcentajeAumentoAutomovil, double porcentajeAumentoCarrera) {
+    public void actualizarPrecios(double porcentajeAumentoMotos, double porcentajeAumentoUtilitarios, double porcentajeAumentoAutomovil, double porcentajeAumentoCarrera) {
         for (Vehiculo vehiculo : vehiculos) {
-            if (vehiculo instanceof Motocicleta) {
+            if (vehiculo instanceof Motocicleta)
                 vehiculo.actualizarPrecio(porcentajeAumentoMotos);
-            } else if (vehiculo instanceof Utilitarios) {
+
+            if (vehiculo instanceof Utilitarios)
                 vehiculo.actualizarPrecio(porcentajeAumentoUtilitarios);
-            } else if (vehiculo instanceof Automovil) {
-                if (vehiculo instanceof AutoCarrera) {
+
+            if (vehiculo instanceof Automovil) {
+                if (vehiculo instanceof AutoCarrera)
                     vehiculo.actualizarPrecio(porcentajeAumentoCarrera);
-                } else {
+                else
                     vehiculo.actualizarPrecio(porcentajeAumentoAutomovil);
-                }
             }
         }
     }
