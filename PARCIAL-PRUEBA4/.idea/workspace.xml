@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00fa0f9e-99fd-479b-af50-42adac3ad863" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/Diagrama en blanco.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/PARCIAL-PRUEBA1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/Simulacro Primer Parcial.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Interface/Deportivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/AutoCarrera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/AutoUrbano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/Automovil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/GestorVehiculos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/Motocicleta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/Utilitarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/out/production/PARCIAL-PRUEBA1/Models/Vehiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Interface/Deportivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/AutoCarrera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/AutoUrbano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/Automovil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/GestorVehiculos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/Motocicleta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/Utilitarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA1/src/Models/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/Diagrama en blanco.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/EXAMEN DE PRUEBA.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/PARCIAL-PRUEBA2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Interface/Ingreso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Interface/Servicios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Aeropuerto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Avion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Carga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Comercial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Hangar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Militar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/out/production/PARCIAL-PRUEBA2/Models/Privado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Interface/Ingreso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Interface/Servicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Aeropuerto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Avion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Carga.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Comercial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Hangar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Militar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA2/src/Models/Privado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/Diagrama en blanco.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/PARCIAL-PRUEBA3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/Primer Parcial Lab 3-2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Interface/Calculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Agencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Aventura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Cultura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Historial/HistorialVenta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Historial/HistorialVentaCliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Historial/Venta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Paquete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Relax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/Models/Ventas/Registro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/out/production/PARCIAL-PRUEBA3/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Interface/Calculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Agencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Aventura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Cultura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Historial/HistorialVenta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Historial/HistorialVentaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Historial/Venta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Paquete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Relax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/Models/Ventas/Registro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PARCIAL-PRUEBA3/src/View.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2gBq6I4GVUFJpfxUlvopPivDbsz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mariano/Desktop/JAVA-UTN/PARCIAL-PRUEBA4-REMISERA"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00fa0f9e-99fd-479b-af50-42adac3ad863" name="Changes" comment="" />
+      <created>1715181145278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715181145278</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
