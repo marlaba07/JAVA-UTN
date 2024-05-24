@@ -122,6 +122,7 @@ public class Persona {
                 ", sexo=" + sexo +
                 ", peso=" + peso +
                 ", altura=" + altura +
+                ", DATO PESO=" + calcularIMC() +
                 '}';
     }
 }
