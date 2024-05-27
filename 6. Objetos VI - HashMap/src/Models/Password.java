@@ -1,6 +1,6 @@
 package Models;
 
-public class Password {
+public class Password implements Comparable<Password> {
     private String password;
     private int size;
 
@@ -14,6 +14,22 @@ public class Password {
     public Password(int size) {
         this.size = size;
         this.generarContra(size);
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     private void generarContra(int size){
@@ -82,9 +98,15 @@ public class Password {
 
     @Override
     public String toString() {
-        return "Password{" +
-                "password='" + password + '\'' +
-                ", size=" + size +
-                '}';
+        return  "Password={ " + password + " }";
     }
+
+    @Override
+    public int compareTo(Password pass_object) {
+        int result = password.compareTo(pass_object.getPassword());
+        return result;
+    }
+
+
+
 }
