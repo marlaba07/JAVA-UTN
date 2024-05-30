@@ -101,7 +101,5 @@ public class Menu {
         System.out.println("0. Salir. ");
         System.out.println("1. Primer ejercicio. ");
         System.out.println("2. Segundo ejercicio. ");
-        System.out.println("3. Tercer ejecicicio. ");
-        System.out.println("4. Tercer ejecicicio. ");
     }
 }

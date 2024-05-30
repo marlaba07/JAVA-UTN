@@ -35,16 +35,46 @@ public class Persona {
         comprobarSexo(sexo);
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Integer getEdad() {
+        return edad;
+    }
+
+    public void setEdad(Integer edad) {
+        this.edad = edad;
+    }
+
     public Integer getDNI() {
         return DNI;
+    }
+
+    public char getSexo() { return sexo;}
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
     }
 
     public Double getPeso() {
         return peso;
     }
 
+    public void setPeso(Double peso) {
+        this.peso = peso;
+    }
+
     public Double getAltura() {
         return altura;
+    }
+
+    public void setAltura(Double altura) {
+        this.altura = altura;
     }
 
     public int calcularIMC(){

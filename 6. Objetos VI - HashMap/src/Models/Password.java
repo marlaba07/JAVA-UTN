@@ -20,6 +20,18 @@ public class Password implements Comparable<Password> {
         return password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
     private void generarContra(int size){
         String AlphaNumerico =
                   "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
