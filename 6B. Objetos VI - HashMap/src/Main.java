@@ -1,5 +1,4 @@
 import Models.Persona;
-
 import java.util.*;
 
 public class Main {
@@ -9,6 +8,8 @@ public class Main {
 
     public static void Menu(){
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        int dimension = 10;
         int op;
 
         do{
@@ -50,7 +51,6 @@ public class Main {
 
                     break;
                 case 2:
-                    Random random = new Random();
                     ArrayList<Integer> lista = new ArrayList<>();
 
                     int cant = 5;
@@ -60,11 +60,6 @@ public class Main {
                         int randomNums = random.nextInt(100);
                         lista.add(randomNums);
                     }
-
-                    // Lista desordenada
-                    /* for(int num : nums ){
-                        System.out.println(num);
-                    } */
 
                     // Lista ordenada
                     Collections.sort(lista);
@@ -109,9 +104,53 @@ public class Main {
 
                 break;
                 case 4:
-                    
+                    ArrayList<Integer> nros = new ArrayList<>();
+
+                    for (int i = 0; i<dimension; i++){
+                        System.out.println("Ingrese un numero: ");
+                        int nro = scanner.nextInt();
+                        
+                        nros.add(nro);
+                    }
+
+                    int suma = 0;
+                    for (int nro : nros){
+                        suma += nro;
+                    }
+
+                    double promedio = (float)suma / nros.size();
+                    System.out.println("Promedio: " + promedio);
+
+                    HashMap<Integer, Integer> mapa = new HashMap<>();
+
+                    for (int elemento : nros) {
+                        if (mapa.containsKey(elemento)) {
+                            mapa.put(elemento, mapa.get(elemento) + 1);
+                        } else {
+                            mapa.put(elemento, 1);
+                        }
+                    }
+
+                    System.out.println("Elementos y cantidad de veces que aparecen: ");
+                    for (Map.Entry<Integer, Integer> entry : mapa.entrySet()) {
+                        System.out.println(entry.getKey() + " - Frecuencia:" + entry.getValue());
+                    }
+
                     break;
                 case 5:
+                    ArrayList<Integer> list = new ArrayList<>();
+                    for(int i = 0; i<dimension; i++){
+                        int nrosRandom = random.nextInt(10);
+                        list.add(nrosRandom);
+                    }
+
+                    TreeSet<Integer> treeSet = new TreeSet<>(list);
+                    list.sort(Collections.reverseOrder());
+                    System.out.println("Lista ordenada de mayor a menor: " + list);
+
+                    Collections.sort(list);
+                    System.out.println("Lista ordenada de menor a mayor: " + list);
+
                     break;
                 case 6:
                     break;
