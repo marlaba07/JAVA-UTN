@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.List;
 
 public class Json {
+
+
     public static List<Aeropuerto> importarJson(String archivo) throws IOException {
         File file = new File(archivo);
         ObjectMapper mapper = new ObjectMapper();

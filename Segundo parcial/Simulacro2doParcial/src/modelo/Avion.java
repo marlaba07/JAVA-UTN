@@ -37,4 +37,13 @@ public class Avion {
     public void setCapacidad_pasajeros(int capacidad_pasajeros) {
         this.capacidad_pasajeros = capacidad_pasajeros;
     }
+
+    @Override
+    public String toString() {
+        return "Avion{" +
+                "id=" + id +
+                ", piloto='" + piloto + '\'' +
+                ", capacidad_pasajeros=" + capacidad_pasajeros +
+                '}';
+    }
 }
