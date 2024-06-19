@@ -1,2 +1,7 @@
-package modelo.enums;public enum TipoCliente {
+package modelo.enums;
+
+public enum TipoCliente {
+    COMUN,
+    JUBILADO,
+    EMBARAZADA
 }
